@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font: Arial;
+  }
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .onmove{
+    background-color: transparent;
+    border: 7px solid white;
+    padding: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .loli{
+    height: 60px;
+    background-color: transparent;
+  }
+  .begin{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .mid{
+    padding-top: 50px;
+    font-size: 40px;
+  }
+  .mid img{
+    height: 40px;
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="10-rockpaper.css">
+  </head>
+  <body>
+    <h1 class="title">Rock Paper Scissors</h1>
+    <button
+      class="rock onmove"
+      onclick="
+        checker('rock');
+        "
+    >
+      <img src="Image/a9.jpg" class="loli" />
+    </button>
+    <button
+      class="paper onmove"
+      onclick="
+        checker('paper');
+      "
+    >
+      <img src="Image/a9_1.jpg" class="loli" />
+    </button>
+    <button
+      class="scissor onmove"
+      onclick="
+      checker('scissor');
+      "
+    >
+      <img src="Image/a9_2.jpg" class="loli" />
+    </button>
+    <p class="begin">You win.</p>
+    <p class="mid">You paper- rock Computer</p>
+    <p class="final">Wins: 0, Losses: 0, Draws: 0</p>
+    <button
+      onclick="
+        score.win=0;
+        score.draw=0;
+        score.lose=0;
+    "
+    >
+      Reset Score
+    </button>
+    <script src="10-rockpaper.js">
+      
+      </script>
+
+  </body>
+</html>
